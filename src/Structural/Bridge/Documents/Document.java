@@ -8,6 +8,11 @@ public abstract class Document {
         this.format = format;
     }
     public abstract String getContent();
+
+    public void setFormat(Format format) {
+        this.format = format;
+    }
+
     public String getFormattedContent(){
         return format.format(getContent());
     }

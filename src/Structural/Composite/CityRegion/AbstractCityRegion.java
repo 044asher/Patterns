@@ -5,7 +5,6 @@ public abstract class AbstractCityRegion implements CityRegion {
     public AbstractCityRegion(String name){
         this.name = name;
     }
-    @Override
     public abstract void displayInfo();
 
 }
