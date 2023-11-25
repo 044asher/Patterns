@@ -5,5 +5,5 @@ import Behavioral.Visitor.Animals.Monkey;
 
 public interface AnimalVisitor {
     void visit(Lion lion);
-    void visit (Monkey monkey);
+    void visit(Monkey monkey);
 }

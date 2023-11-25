@@ -5,15 +5,15 @@ public class Mage extends GameCharacter{
         this.name = name;
     }
     @Override
-    void selectCharacter() {
+    protected void selectCharacter() {
         System.out.println(name + " has selected the mage class.");
     }
     @Override
-    void performAction() {
+    protected void performAction() {
         System.out.println(name + " is casting powerful spells and using magic.");
     }
     @Override
-    void levelUp() {
+    protected void levelUp() {
         System.out.println("Mage " + name + " leveled up and gained new magical abilities!");
     }
 }

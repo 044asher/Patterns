@@ -1,7 +1,7 @@
 package Behavioral.TemplateMethod.GameChar;
 
 abstract class GameCharacter {
-    String name;
+    protected String name;
     public void play(){
         selectCharacter();
         performAction();
